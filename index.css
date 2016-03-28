@@ -197,18 +197,12 @@ html, body {
 
 #a2 p:nth-child(6) {
     left: 20%;
-    top: 56%;
+    top: 53%;
 }
 
 #a2 p:nth-child(7) {
     left: 40%;
-    top: 62%;
-}
-
-#a2 p:nth-child(8) {
-    left: 47%;
-    top: 71%;
-    background: url("images/mcd.gif") no-repeat;
+    top: 70%;
 }
 
 .a3 {
@@ -240,7 +234,7 @@ html, body {
     -webkit-transform: translate(0, 0);
     transition: 1s;
     -webkit-transition: 1s;
-    /*-webkit-animation:rotate 1s ease-in-out ;*/
+
 }
 
 #a3 {
@@ -249,7 +243,7 @@ html, body {
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
-
+.a4{width: 100%;height: 100%;}
 .a4 p {
     position: absolute;
     width: 0;
@@ -261,7 +255,6 @@ html, body {
     color: #fff;
     border: 1px solid #fff;
     text-align: center;
-    /*padding-top: 50px;*/
 }
 
 .a4 p:nth-child(1) {
@@ -316,8 +309,8 @@ html, body {
     height: 0;
     border: 10px solid #FBA60A;
     border-color: transparent transparent #FBA60A transparent;
-    -webkit-animation: tipMove 1s ease-in-out 0s infinite both;
-    animation: tipMove 1s ease-in-out 0s infinite both;
+    -webkit-animation: tipMove 2s ease-in-out 0s infinite both;
+    animation: tipMove 2s ease-in-out 0s infinite both;
 }
 
 @-webkit-keyframes tipMove {
@@ -361,15 +354,6 @@ html, body {
     line-height: 100px;
     margin: 100px auto;
 }
-
-/*.a5 #a5-1 {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: absolute;
-    top: 110px;
-    left: 235px;
-}*/
 
 .describe p:nth-child(even) {
     transform: translate(500px, 0);
